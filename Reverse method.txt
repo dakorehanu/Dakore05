@@ -1,0 +1,23 @@
+package reversetheNo;
+
+public class Reversible {
+
+	public static void main(String[] args) {
+		
+	
+	int num=34567;
+	
+	//logic1- String bUffer reverse method
+	
+	StringBuffer sb=new StringBuffer(String.valueOf(num));
+	StringBuffer reverse = sb.reverse();
+	System.out.println(reverse);
+	
+	//logic2- StringBuilder 
+	
+	StringBuilder sbl=new StringBuilder();
+	sbl.append(num);
+	StringBuilder reverse2 = sbl.reverse();
+	System.out.println(reverse2);
+}
+}
